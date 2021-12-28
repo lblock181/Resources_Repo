@@ -2,8 +2,8 @@
 
 - Getting Column Number
 Returns integer of column number if found, otherwise return -1
-    Function GetColumnNumber(ws As Worksheet, colName As String, Optional rowOffset As Integer = 0, Optional fuzzySearch As Boolean = False) As Integer
-        
+    
+        Function GetColumnNumber(ws As Worksheet, colName As String, Optional rowOffset As Integer = 0, Optional fuzzySearch As Boolean = False) As Integer    
         For Each c In ws.Range(ws.Range("A1"), ws.Range("A1").offset(rowOffset, 0).End(xlToRight))
             Select Case fuzzySearch
             Case False
