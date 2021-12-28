@@ -19,4 +19,4 @@ Returns integer of column number if found, otherwise return -1
             End Select
         Next c
         GetColumnNumber = -1
-    End Function
+        End Function
