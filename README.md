@@ -5,7 +5,7 @@ Personal repo of code snippets
 
 ### [Angular]()
  - Adding [FontAwesome](angular/fontawesome.md)
-### [HTML]CSS)()
+### [HTML/CSS](htmlcss/)
  - [Bootstrap](htmlcss/bootstrap)
  - [FontAwesome](htmlcss/fontawesome.md) in static HTML
 ### [JavaScript]()
